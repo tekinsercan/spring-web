@@ -5,15 +5,18 @@
 4. Now you can run your SpringBootApplication
 
 ## Project
-This is a simple Spring web application by means of MVC structure.
+This is a simple Spring web application by means of MVC structure. The logic is as below:
+
+![mvc.png](mvc.png)
 
 ## Dependencies
 + **spring-boot-starter** is the main dependency to start the app.
 + **spring-boot-starter-web** is to manage web related operations such as requests, mappings etc
 + **thymeleaf** template is valid HTML document that makes creating HTML pages easier. With thymeleaf, we can see a page in any browser or/and in compiler without running our application.
++ **spring-boot-starter-data-jpa** to manage data models, store and retrieve data in a relational database
 
-## Structure
-1. Index page
-    + Index Controller is in corresponding package.
-    + Index HTML page that matches with the controller. It is in resources/templates
-2. 
+## Data model:
+
+![data-model.png](data-model.png)
+
+## 
